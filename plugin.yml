@@ -1,20 +1,10 @@
 name: LastCommand
-main: net.weasel.LastCommand.LastCommand
+main: update.menexia.lastcommand.LastCommand
 author: weasel5i2
-version: 1.41
+previous author: weasel5i2
+version: 1.53
 commands:
   last:
     description: Repeats your last command
     usage: /last
-  "!":
-    description: Repeats your last command
-    usage: "Usage: /!"
-  l:
-    description: Repeats your last command
-    usage: "Usage: /l"
-  ".":
-    description: Repeats your last command
-    usage: "Usage: /."
-  "/":
-    description: Repeats your last command
-    usage: "Usage: //"
+    aliases: ["!", l, ".", "/"]
